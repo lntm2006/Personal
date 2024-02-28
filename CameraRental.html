@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UFT-8">
+    <title>Camera Rental</title>
+    <link rel="stylesheet" href="CameraRental.css">
+  </head>
+
+  <header>
+    <div class="navigate">
+      <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="CameraRental.html">Rental Services</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <h1>Camera Rental Request</h1>
+  </header>
+
+  <body>
+    <div>
+    <h2>Available Cameras</h2>
+      <table>
+      <tr>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Rental Cost</th>
+      </tr>
+      <td><img src="https://www.bhphotovideo.com/images/images2500x2500/canon_eos_r3_mirrorless_digital_1634981.jpg" alt="Canon EOS R3 Mirrorless Digital Camera" width="100" height="100"></td>
+      <td>Canon EOS R3</td>
+      <td>Best professional sports camera with 24.1MP sensor</td>
+      <td>$50/day</td>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.6gCQNRLebypEIJm8g9gEKQHaHX?rs=1&pid=ImgDetMain" alt="Nikon Z9" width="100" height="100"></td>
+        <td>Nikon Z9</td>
+        <td>Best all-round professional camera with 45.7MP sensor</td>
+        <td>$45/day</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.EZp0Kl-TuFSCKLq4VaoESAHaF3?rs=1&pid=ImgDetMain" alt="Sony A1" width="100" height="100"></td>
+        <td>Sony A1</td>
+        <td>High-end camera with 50.1MP sensor</td>
+        <td>$60/day</td>
+      </tr>
+    </table>
+
+    </div>
+
+    <div>
+      <h2>Rent Camera</h2>
+     
+      <div class="rent">
+      <label for="camera"><strong>Select a camera:</strong></label>
+      <br>
+      <select id="camera" name="camera">
+          <option value="Canon EOS R3">Canon EOS R3</option>
+          <option value="Nikon Z9">Nikon Z9</option>
+          <option value="Sony A1">Sony A1</option>
+      </select>
+      </div>
+    <br>
+      <div class="duration">
+        <label for="numberInput"><strong>Rental Durations (in days):</strong></label>
+        <br>
+        <input type="number" id="numberInput" name="numberInput" min="1" max="7">
+      </div>
+    <br>
+      <div class="requests">
+        <label for="textInput"><strong>Additional Requests:</strong></label>
+        <br>
+        <input type="text" id="textInput" name="textInput" placeholder="Enter any requests that you have. We will try to cater to your needs.">
+      </div>
+      <br>
+      <div class="email">
+        <label for="emailInput"><strong>Email:</strong></label>
+        <br>
+        <input type="email" id="emailInput" name="emailInput" placeholder="Key in your email address here">
+      </div>
+      <br>
+      <div class="submit">
+        <input type="submit" value="Submit">
+      </div>
+    
+    </div>
+  
+  </body>
+
+  <footer>
+   <div class="footer">
+    <p> &copy; 2023 Snap Professional Rental, Singapore</p>
+   </div>
+  </footer>
+</html>
